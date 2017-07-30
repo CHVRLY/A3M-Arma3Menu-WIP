@@ -1,0 +1,15 @@
+/*
+  File: description.ext
+  Author: S.M.Z
+  Usage: You can use and modify this script, but please don"t remove this banner.
+*/
+
+author = "S.M.Z";
+onLoadName = "Arma 3 Menu (A3M)";
+onLoadMission = "Arma 3 Menu (Work In Progress)";
+loadScreen = "";
+
+class CfgFunctions
+{
+	#include "Include\Functions.hpp"
+};
