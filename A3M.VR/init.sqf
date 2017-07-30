@@ -5,4 +5,4 @@ if (hasInterface) then {
 };
 
 StartProgress = true;
-[] spawn Scripts_fnc_adminMenuOpen;
+[] spawn A3M_fnc_adminMenuOpen;

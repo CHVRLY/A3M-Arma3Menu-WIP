@@ -25,9 +25,9 @@ spacerPuissance = player addAction ["<t size='0.5'> </t>",{}];
 
 puissanceOn = player addAction ["<t>> Activer<t>", {
   hint parseText format ["<t size='1.5' color='#5386CE'>Arma 3 Menu</t><br/><br/><t>• Puissance</t> [<t color='#59CE53'> ACTIVÉE </t><t>]</t>"];
-  player enableFatigue false; player setUnitRecoilCoefficient 0; player setAnimSpeedCoef 1.25; [] spawn Scripts_fnc_adminMenu;}];
+  player enableFatigue false; player setUnitRecoilCoefficient 0; player setAnimSpeedCoef 1.25; [] spawn A3M_fnc_adminMenu;}];
 
 
 puissanceOff = player addAction ["<t>> Desactiver<t>", {
   hint parseText format ["<t size='1.5' color='#5386CE'>Arma 3 Menu</t><br/><br/><t>• Puissance</t> [<t color='#CE5353'> DESACTIVÉE </t><t>]</t>"];
-  player enableFatigue true; player setUnitRecoilCoefficient 1; player setAnimSpeedCoef 1; [] spawn Scripts_fnc_adminMenu;}];
+  player enableFatigue true; player setUnitRecoilCoefficient 1; player setAnimSpeedCoef 1; [] spawn A3M_fnc_adminMenu;}];

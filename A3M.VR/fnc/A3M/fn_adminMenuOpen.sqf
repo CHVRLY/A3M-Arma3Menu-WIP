@@ -23,4 +23,4 @@ player removeAction armeChoose;
 player removeAction vehiculeChoose;
 player removeAction lifeChoose;
 
-AdminMenu = player addAction ["<t color='#5386CE' size='1.2'>• Ouvrir le Menu •<t>", Scripts_fnc_adminMenu];
+AdminMenu = player addAction ["<t color='#5386CE' size='1.2'>• Ouvrir le Menu •<t>", A3M_fnc_adminMenu];

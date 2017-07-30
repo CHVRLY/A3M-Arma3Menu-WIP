@@ -4,11 +4,11 @@
   Usage: You can use and modify this script, but please don"t remove this banner.
 */
 
-class Scripts {
-    tag = "Scripts";
+class ARMA3MENU {
+    tag = "A3M";
 
-    class AdminMenu {
-        file = "fnc\AdminMenu";
+    class A3M {
+        file = "fnc\A3M";
         class adminMenuOpen {};
         class adminMenu {};
         class adminMenuInvinsible {};
